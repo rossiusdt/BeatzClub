@@ -1,0 +1,3298 @@
+<!DOCTYPE html><html lang="pt-br"><head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BEATZ FESTIVAL - 23 DE MAIO - CASCAVEL/PR</title>
+    
+    <!-- Meta Tags -->
+    <meta name="description" content="BEATZ Festival - O maior festival de música de Cascavel. 23 DE MAIO. Garanta seu ingresso!">
+    <link rel="icon" type="image/png" href="images/robot-mascot.png">
+    
+    <!-- Open Graph -->
+    <meta property="og:url" content="https://beatzfestival.com.br">
+    <meta property="og:title" content="BEATZ FESTIVAL - 23 DE MAIO">
+    <meta property="og:description" content="O maior festival de música de Cascavel. Garanta seu ingresso!">
+    <meta property="og:image" content="images/robot-mascot.png">
+    
+    <!-- Meta Pixel Code -->
+    <script>
+    !function(f,b,e,v,n,t,s)
+    {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+    n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+    if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+    n.queue=[];t=b.createElement(e);t.async=!0;
+    t.src=v;s=b.getElementsByTagName(e)[0];
+    s.parentNode.insertBefore(t,s)}(window, document,'script',
+    'https://connect.facebook.net/en_US/fbevents.js');
+    fbq('init', '821141637665399');
+    fbq('track', 'PageView');
+    </script>
+    <noscript><img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=821141637665399&ev=PageView&noscript=1"
+    /></noscript>
+    <!-- End Meta Pixel Code -->
+    
+    <!-- Preload Custom Font -->
+    <link rel="preload" href="fonts/TRENDS.TTF" as="font" type="font/ttf" crossorigin="">
+    
+    <!-- Preconnect para CDNs -->
+    <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin="">
+    <link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.googleapis.com" crossorigin="">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    
+    <!-- Preload imagem LCP -->
+    <link rel="preload" as="image" href="images/beatz/TELAFULL.PNG" fetchpriority="high">
+    
+    <!-- CSS crítico inline já está no style abaixo -->
+    
+    <!-- CSS não-crítico com media print hack para defer -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="css/all.min.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+    
+    <!-- Fallback para navegadores sem JS -->
+    <noscript>
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+        <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+    </noscript>
+    
+    <style>
+        /* ==================== CUSTOM FONTS ==================== */
+        @font-face {
+            font-family: 'Trends';
+            src: url('fonts/TRENDS.TTF') format('truetype');
+            font-weight: normal;
+            font-style: normal;
+            font-display: swap;
+        }
+        
+        /* ==================== RESET & GLOBALS ==================== */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        
+        :root {
+            --beatz-purple: #5B3A9B;
+            --beatz-purple-dark: #4A2E7D;
+            --beatz-magenta: #E91E63;
+            --beatz-pink: #FF4081;
+            --beatz-green: #4CAF50;
+            --beatz-yellow: #FFD700;
+            --beatz-cyan: #00BCD4;
+            --beatz-blue: #2196F3;
+            --font-trends: 'Trends', 'Montserrat', sans-serif;
+        }
+        
+        body {
+            font-family: 'Montserrat', sans-serif;
+            background: var(--beatz-purple-dark);
+            color: #fff;
+            overflow-x: hidden;
+        }
+        
+        /* ==================== HERO SECTION ==================== */
+        #hero {
+            position: relative;
+            min-height: 100vh;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: flex-start;
+            padding: 40px 20px;
+            background: linear-gradient(180deg, 
+                #2D1B4E 0%, 
+                #3D2563 30%, 
+                #4A2E7D 70%, 
+                #5B3A9B 100%
+            );
+            overflow: hidden;
+        }
+        
+        #hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(233, 30, 99, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(0, 188, 212, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 50% 50%, rgba(255, 215, 0, 0.05) 0%, transparent 70%);
+            pointer-events: none;
+        }
+        
+        .hero-content {
+            position: relative;
+            z-index: 10;
+            text-align: center;
+            max-width: 1400px;
+            margin: 0 auto;
+            width: 100%;
+        }
+        
+        /* HEADER COM LOCAL E DATA */
+        .hero-header-row {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            margin-bottom: 35px;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .hero-logofull {
+            max-width: 90%;
+            width: 800px;
+            height: auto;
+            object-fit: contain;
+        }
+        
+        /* TEXTO EXPLICATIVO */
+        .hero-texto-explicativo {
+            max-width: 850px;
+            margin: 10px auto 10px;
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .hero-texto-explicativo h1,
+        .hero-texto-explicativo h2 {
+            font-family: var(--font-trends) !important;
+            font-size: 1.4rem;
+            font-weight: normal;
+            line-height: 1.3;
+            color: #fff;
+            text-shadow: 
+                3px 3px 0px #000,
+                -1px -1px 0px #000,
+                1px -1px 0px #000,
+                -1px 1px 0px #000,
+                4px 4px 10px rgba(0, 0, 0, 0.5);
+            margin: 0;
+            animation: fadeInUp 0.8s ease-out;
+            letter-spacing: 0.5px;
+        }
+        
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+        
+        /* ÁREA DO VÍDEO COM TELAS - FULL WIDTH */
+        .hero-video-area {
+            position: relative;
+            width: 120vw;
+            margin: 10px 0 20px;
+            margin-left: calc(-60vw + 50%);
+            animation: fadeInScale 1s ease-out 0.3s both;
+            overflow: visible;
+            overflow: visible;
+        }
+        
+        @keyframes fadeInScale {
+            from {
+                opacity: 0;
+                transform: scale(0.95);
+            }
+            to {
+                opacity: 1;
+                transform: scale(1);
+            }
+        }
+        
+        /* Container das telas */
+        .telas-container {
+            position: relative;
+            width: 100%;
+            margin: 0;
+            padding: 0;
+            cursor: pointer;
+        }
+        
+        .telas-img {
+            width: 100%;
+            max-width: 100%;
+            display: block;
+            position: relative;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        
+        .telas-img-mobile {
+            display: none;
+            transition: transform 0.3s ease, filter 0.3s ease;
+        }
+        
+        .hero-video-area:hover .telas-img,
+        .hero-video-area:hover .telas-img-mobile {
+            transform: scale(1.02);
+            filter: brightness(1.1);
+        }
+        
+        /* Modal de Vídeo */
+        .video-modal {
+            display: none;
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: rgba(0, 0, 0, 0.95);
+            z-index: 10000;
+            align-items: center;
+            justify-content: center;
+            padding: 20px;
+        }
+        
+        .video-modal.active {
+            display: flex;
+        }
+        
+        .video-modal-content {
+            position: relative;
+            width: 100%;
+            max-width: 900px;
+            aspect-ratio: 16/9;
+        }
+        
+        .video-modal-content iframe {
+            width: 100%;
+            height: 100%;
+            border: none;
+            border-radius: 15px;
+        }
+        
+        .video-modal-close {
+            position: absolute;
+            top: -50px;
+            right: 0;
+            background: var(--beatz-yellow);
+            color: #000;
+            border: 4px solid #000;
+            border-radius: 50%;
+            width: 50px;
+            height: 50px;
+            font-size: 1.5rem;
+            font-weight: 900;
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: all 0.2s;
+            box-shadow: 4px 4px 0px #000;
+        }
+        
+        .video-modal-close:hover {
+            transform: scale(1.1) rotate(90deg);
+        }
+        
+        /* TEXTOS SOBRE LOTE ZERO */
+        .lote-zero-section {
+            max-width: 800px;
+            margin: 40px auto 35px;
+            text-align: center;
+            padding: 0 20px;
+        }
+        
+        .texto-valido-1000 {
+            font-family: var(--font-trends);
+            font-size: 1.5rem;
+            color: #fff;
+            text-shadow: 2px 2px 0px #000;
+            margin-bottom: 25px;
+            line-height: 1.4;
+        }
+        
+        .texto-valido-1000 .destaque {
+            color: var(--beatz-yellow);
+        }
+        
+        /* Card do Lote Zero */
+        .lote-zero-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            border: 3px solid var(--beatz-yellow);
+            border-radius: 20px;
+            padding: 30px 35px;
+            margin-top: 20px;
+            position: relative;
+            backdrop-filter: blur(10px);
+        }
+        
+        .lote-zero-card::before {
+            content: '?';
+            position: absolute;
+            top: -20px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--beatz-yellow);
+            color: #000;
+            width: 40px;
+            height: 40px;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-family: var(--font-trends);
+            font-size: 1.5rem;
+            font-weight: bold;
+            border: 3px solid #000;
+        }
+        
+        .texto-lote-zero-titulo {
+            font-family: var(--font-trends);
+            font-size: 1.6rem;
+            color: var(--beatz-yellow);
+            margin-bottom: 15px;
+            margin-top: 10px;
+        }
+        
+        .texto-lote-zero-descricao {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 1rem;
+            color: #fff;
+            line-height: 1.6;
+            max-width: 600px;
+            margin: 0 auto;
+            font-weight: 500;
+        }
+        
+        .texto-lote-zero-descricao strong {
+            color: var(--beatz-yellow);
+        }
+        
+        /* CSS legado para imagens - pode ser removido se não usado */
+        .img-valido-1000 {
+            max-width: 100%;
+            width: 85%;
+            margin-bottom: 35px;
+            display: block;
+            margin-left: auto;
+            margin-right: auto;
+        }
+        
+        .lote-zero-info {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            align-items: center;
+        }
+        
+        .img-oque-lote {
+            max-width: 450px !important;
+            width: 80%;
+        }
+        
+        .img-explicacao-lote {
+            max-width: 800px !important;
+            width: 88%;
+        }
+        
+        /* BOTÃO ENTRAR NO GRUPO VIP */
+        .btn-grupo-container {
+            margin: 40px auto;
+            text-align: center;
+        }
+        
+        .btn-grupo-vip {
+            display: inline-flex;
+            align-items: center;
+            justify-content: center;
+            background: var(--beatz-yellow);
+            border: 5px solid #000;
+            border-radius: 15px;
+            padding: 20px 60px;
+            min-width: 320px;
+            box-shadow: 8px 8px 0px #000;
+            cursor: pointer;
+            transition: all 0.2s;
+            text-decoration: none;
+            font-family: var(--font-trends);
+            font-size: 1.5rem;
+            color: #000;
+            font-weight: bold;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .btn-grupo-vip:hover {
+            transform: translate(4px, 4px);
+            box-shadow: 4px 4px 0px #000;
+            background: #ffe033;
+        }
+        
+        /* HASHTAG E VÁLIDO 1000 */
+        .hashtag-section {
+            text-align: center;
+            margin: 40px 0 25px;
+        }
+        
+        .texto-valido-final {
+            font-family: var(--font-oswald);
+            font-size: 1.1rem;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+            margin-bottom: 15px;
+        }
+        
+        .texto-hashtag {
+            font-family: var(--font-trends);
+            font-size: 3rem;
+            color: var(--beatz-yellow);
+            text-shadow: 4px 4px 0px #000;
+            letter-spacing: 2px;
+        }
+        
+        .valido-1000-alt {
+            max-width: 500px;
+            width: 75%;
+        }
+        
+        .hashtag-img {
+            max-width: 550px;
+            width: 80%;
+        }
+        
+        /* ROBÔ MASCOTE */
+        .robo-section {
+            width: 100%;
+            margin-top: 40px;
+            margin-bottom: -50px;
+            padding: 0;
+            text-align: center;
+            overflow: hidden;
+        }
+        
+        .robo-img {
+            max-width: 600px;
+            width: 80%;
+            height: auto;
+            margin: 0 auto;
+            display: block;
+            /* Evitar CLS */
+            aspect-ratio: 1600/643;
+            animation: float 3s ease-in-out infinite;
+        }
+        
+        @keyframes float {
+            0%, 100% { transform: translateY(0px); }
+            50% { transform: translateY(-15px); }
+        }
+        
+        /* ==================== PALCOS (ARTISTAS) ==================== */
+        .palcos-section {
+            padding: 50px 15px;
+            background: linear-gradient(180deg, 
+                #4A2E7D 0%,
+                #5B3A9B 100%
+            );
+            text-align: center;
+        }
+        
+        #palco-eletronico {
+            background: linear-gradient(180deg, 
+                #5B3A9B 0%,
+                #4A2E7D 100%
+            );
+        }
+        
+        .palcos-container {
+            max-width: 1100px;
+            margin: 0 auto;
+        }
+        
+        .palcos-titulo {
+            font-family: var(--font-trends);
+            font-size: 2.2rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            text-shadow: 4px 4px 0px #000;
+            margin-bottom: 30px;
+        }
+        
+        .palco-beatz-titulo {
+            color: #E91E63;
+        }
+        
+        .palco-eletronico-titulo {
+            color: #00BCD4;
+        }
+        
+        .artistas-grid {
+            display: grid;
+            gap: 8px;
+            justify-content: center;
+            justify-items: center;
+        }
+        
+        .artistas-grid-9 {
+            grid-template-columns: repeat(5, 1fr);
+        }
+        
+        .artistas-grid-8 {
+            grid-template-columns: repeat(4, 1fr);
+        }
+        
+        .artista-card {
+            transition: transform 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275), z-index 0s;
+            cursor: pointer;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .artista-card:hover {
+            transform: scale(1.15);
+            z-index: 10;
+        }
+        
+        .artista-card img {
+            width: 100%;
+            max-width: 160px;
+            height: auto;
+            display: block;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 1200px) {
+            .artistas-grid-9 {
+                grid-template-columns: repeat(5, 1fr);
+                gap: 6px;
+            }
+            .artistas-grid-8 {
+                grid-template-columns: repeat(4, 1fr);
+                gap: 6px;
+            }
+            .artista-card img {
+                max-width: 140px;
+            }
+        }
+        
+        @media (max-width: 992px) {
+            .artistas-grid-9 {
+                grid-template-columns: repeat(3, 1fr);
+            }
+            .artistas-grid-8 {
+                grid-template-columns: repeat(4, 1fr);
+            }
+            .artista-card img {
+                max-width: 130px;
+            }
+        }
+        
+        @media (max-width: 768px) {
+            .palcos-section {
+                padding: 35px 10px;
+            }
+            
+            .palcos-titulo {
+                font-size: 1.6rem;
+                margin-bottom: 20px;
+            }
+            
+            .artistas-grid-9,
+            .artistas-grid-8 {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 5px;
+            }
+            
+            .artista-card img {
+                max-width: 110px;
+            }
+            
+            .artista-card:hover {
+                transform: scale(1.1);
+            }
+        }
+        
+        @media (max-width: 480px) {
+            .palcos-section {
+                padding: 30px 8px;
+            }
+            
+            .artistas-grid-9,
+            .artistas-grid-8 {
+                grid-template-columns: repeat(3, 1fr);
+                gap: 4px;
+            }
+            
+            .artista-card img {
+                max-width: 100px;
+            }
+        }
+        
+        @media (max-width: 380px) {
+            .artistas-grid-9,
+            .artistas-grid-8 {
+                gap: 3px;
+            }
+            
+            .artista-card img {
+                max-width: 90px;
+            }
+        }
+        
+        /* ==================== TABELA DE BENEFÍCIOS ==================== */
+        #beneficios {
+            padding: 80px 20px;
+            background: linear-gradient(180deg, 
+                #5B3A9B 0%,
+                #6B4AAB 50%,
+                #7B5ABB 100%
+            );
+            text-align: center;
+            position: relative;
+        }
+        
+        .beneficios-container {
+            max-width: 1200px;
+            margin: 0 auto;
+        }
+        
+        .beneficios-titulo {
+            font-family: var(--font-trends);
+            font-size: 3rem;
+            font-weight: 900;
+            color: var(--beatz-yellow);
+            text-transform: uppercase;
+            text-shadow: 4px 4px 0px #000;
+            margin-bottom: 50px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        /* LISTA DE BENEFÍCIOS VIP */
+        .lista-beneficios-vip {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .beneficio-vip-item {
+            display: flex;
+            align-items: center;
+            gap: 20px;
+            background: linear-gradient(135deg, rgba(255,255,255,0.1) 0%, rgba(255,255,255,0.05) 100%);
+            border: 3px solid var(--beatz-yellow);
+            border-radius: 15px;
+            padding: 20px 30px;
+            transition: all 0.3s ease;
+        }
+        
+        .beneficio-vip-item:hover {
+            transform: translateX(10px);
+            background: rgba(255, 215, 0, 0.15);
+            box-shadow: 0 5px 20px rgba(255, 215, 0, 0.3);
+        }
+        
+        .beneficio-vip-icon {
+            width: 50px;
+            height: 50px;
+            min-width: 50px;
+            background: var(--beatz-yellow);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border: 3px solid #000;
+        }
+        
+        .beneficio-vip-icon i {
+            font-size: 1.3rem;
+            color: #000;
+        }
+        
+        .beneficio-vip-item span {
+            font-family: var(--font-trends);
+            font-size: 1.2rem;
+            color: #fff;
+            text-shadow: 2px 2px 0px #000;
+        }
+        
+        @media (max-width: 768px) {
+            .beneficio-vip-item {
+                padding: 15px 20px;
+                gap: 15px;
+            }
+            
+            .beneficio-vip-icon {
+                width: 40px;
+                height: 40px;
+                min-width: 40px;
+            }
+            
+            .beneficio-vip-icon i {
+                font-size: 1rem;
+            }
+            
+            .beneficio-vip-item span {
+                font-size: 0.95rem;
+            }
+        }
+        
+        .tabela-moderna {
+            background: rgba(255,255,255,0.05);
+            border: 5px solid #000;
+            border-radius: 30px;
+            overflow: hidden;
+            box-shadow: 0 20px 60px rgba(0,0,0,0.5);
+        }
+        
+        .tabela-header {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            background: linear-gradient(135deg, #2D1B4E 0%, #4A2E7D 100%);
+            border-bottom: 5px solid #000;
+        }
+        
+        .tabela-header > div {
+            padding: 25px 20px;
+            font-weight: 900;
+            font-size: 1.5rem;
+            text-transform: uppercase;
+            text-align: center;
+            border-right: 3px solid #000;
+            color: #fff;
+        }
+        
+        .tabela-header > div:last-child {
+            border-right: none;
+        }
+        
+        .col-beneficio {
+            text-align: left !important;
+        }
+        
+        .col-beatz {
+            background: var(--beatz-green);
+        }
+        
+        .col-zero {
+            background: var(--beatz-magenta);
+        }
+        
+        .tabela-row {
+            display: grid;
+            grid-template-columns: 2fr 1fr 1fr;
+            border-bottom: 3px solid #000;
+            transition: all 0.3s;
+        }
+        
+        .tabela-row:hover {
+            background: rgba(255,255,255,0.08);
+            transform: translateX(5px);
+        }
+        
+        .tabela-row:last-of-type {
+            border-bottom: none;
+        }
+        
+        .tabela-row > div {
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-right: 3px solid #000;
+            font-size: 1rem;
+            font-weight: 600;
+            color: #fff;
+        }
+        
+        .tabela-row > div:last-child {
+            border-right: none;
+        }
+        
+        .tabela-row .col-beneficio {
+            justify-content: flex-start;
+            gap: 15px;
+            background: rgba(255,255,255,0.05);
+        }
+        
+        .tabela-row .col-beneficio i {
+            font-size: 1.8rem;
+            color: var(--beatz-yellow);
+            min-width: 30px;
+        }
+        
+        .tabela-row .col-beneficio span {
+            text-align: left;
+            line-height: 1.5;
+        }
+        
+        .tabela-row .col-beatz,
+        .tabela-row .col-zero {
+            font-size: 2rem;
+        }
+        
+        .tabela-row .col-beatz {
+            background: rgba(76, 175, 80, 0.2);
+        }
+        
+        .tabela-row .col-zero {
+            background: rgba(233, 30, 99, 0.2);
+        }
+        
+        .tabela-row .fa-check-circle {
+            color: var(--beatz-green);
+        }
+        
+        .tabela-row .fa-times-circle {
+            color: var(--beatz-magenta);
+            opacity: 0.5;
+        }
+        
+        /* Destaque Dourado para linha especial */
+        .tabela-row.row-destaque-gold {
+            background: linear-gradient(90deg, rgba(255, 215, 0, 0.25) 0%, rgba(255, 193, 7, 0.15) 50%, rgba(255, 215, 0, 0.25) 100%);
+            border: 2px solid #FFD700 !important;
+            border-radius: 8px;
+            margin: 10px 0;
+            position: relative;
+            animation: gold-glow 2s ease-in-out infinite;
+        }
+        
+        .tabela-row.row-destaque-gold .col-beneficio i {
+            color: #FFD700 !important;
+            text-shadow: 0 0 10px rgba(255, 215, 0, 0.5);
+        }
+        
+        .tabela-row.row-destaque-gold .col-beneficio span {
+            color: #FFD700;
+            font-weight: bold;
+        }
+        
+        @keyframes gold-glow {
+            0%, 100% { box-shadow: 0 0 5px rgba(255, 215, 0, 0.3); }
+            50% { box-shadow: 0 0 15px rgba(255, 215, 0, 0.5); }
+        }
+        
+        .tabela-cta {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 30px;
+            padding: 40px;
+            background: linear-gradient(135deg, #2D1B4E 0%, #000 100%);
+        }
+        
+        .btn-beatz-club {
+            background: var(--beatz-green);
+            color: #fff;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 5px solid #000;
+            border-radius: 15px;
+            padding: 20px 40px;
+            font-size: 1.2rem;
+            box-shadow: 6px 6px 0px #000;
+            transition: all 0.2s;
+            cursor: pointer;
+            text-decoration: none;
+            display: inline-block;
+        }
+        
+        .btn-beatz-club:hover {
+            transform: translate(3px, 3px);
+            box-shadow: 3px 3px 0px #000;
+            color: #fff;
+        }
+        
+        .btn-beatz-yellow {
+            background: var(--beatz-yellow);
+            color: #000;
+        }
+        
+        .btn-beatz-yellow:hover {
+            color: #000;
+        }
+        
+        /* ==================== SORTEIOS EXCLUSIVOS ==================== */
+        #sorteios {
+            padding: 80px 20px;
+            background: linear-gradient(180deg, 
+                #7B5ABB 0%,
+                #8B6ACB 30%,
+                #9B7ADB 70%,
+                #AB8AEB 100%
+            );
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        #sorteios::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: 
+                radial-gradient(circle at 20% 30%, rgba(255,215,0,0.15) 0%, transparent 50%),
+                radial-gradient(circle at 80% 70%, rgba(0,188,212,0.15) 0%, transparent 50%);
+            pointer-events: none;
+        }
+        
+        .sorteios-container {
+            max-width: 1200px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .sorteios-titulo {
+            font-family: var(--font-trends);
+            font-size: 3rem;
+            font-weight: 900;
+            color: #fff;
+            text-transform: uppercase;
+            text-shadow: 4px 4px 0px #000;
+            margin-bottom: 50px;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        .sorteios-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+            margin-top: 40px;
+        }
+        
+        .sorteio-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+            border-radius: 20px;
+            padding: 35px 25px;
+            border: 4px solid #000;
+            box-shadow: 6px 6px 0px #000;
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+        }
+        
+        .sorteio-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 6px;
+            background: linear-gradient(90deg, 
+                var(--beatz-yellow) 0%, 
+                var(--beatz-pink) 50%, 
+                var(--beatz-cyan) 100%
+            );
+        }
+        
+        .sorteio-card:hover {
+            transform: translateY(-10px) rotate(1deg);
+            box-shadow: 10px 10px 0px #000;
+            background: linear-gradient(135deg, #fff 0%, rgba(255,215,0,0.1) 100%);
+        }
+        
+        .sorteio-icon {
+            font-size: 3.5rem;
+            margin-bottom: 20px;
+            display: block;
+            transition: all 0.3s;
+        }
+        
+        .sorteio-card:hover .sorteio-icon {
+            transform: scale(1.2) rotate(10deg);
+            filter: drop-shadow(0 5px 15px rgba(0,0,0,0.3));
+        }
+        
+        .sorteio-card:nth-child(1) .sorteio-icon { color: #FF6B6B; }
+        .sorteio-card:nth-child(2) .sorteio-icon { color: #4ECDC4; }
+        .sorteio-card:nth-child(3) .sorteio-icon { color: #FFD93D; }
+        .sorteio-card:nth-child(4) .sorteio-icon { color: #6BCF7F; }
+        .sorteio-card:nth-child(5) .sorteio-icon { color: #9B59B6; }
+        .sorteio-card:nth-child(6) .sorteio-icon { color: #FF6B6B; }
+        
+        /* Card Bloqueado - Em Breve */
+        .sorteio-card.card-locked {
+            background: linear-gradient(135deg, rgba(50,50,50,0.95) 0%, rgba(30,30,30,0.95) 100%);
+            cursor: default;
+            position: relative;
+        }
+        
+        .sorteio-card.card-locked::before {
+            background: linear-gradient(90deg, #333 0%, #555 50%, #333 100%);
+        }
+        
+        .sorteio-card.card-locked::after {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: repeating-linear-gradient(
+                45deg,
+                transparent,
+                transparent 10px,
+                rgba(255,255,255,0.02) 10px,
+                rgba(255,255,255,0.02) 20px
+            );
+            pointer-events: none;
+        }
+        
+        .sorteio-card.card-locked:hover {
+            transform: none;
+            box-shadow: 6px 6px 0px #000;
+            background: linear-gradient(135deg, rgba(50,50,50,0.95) 0%, rgba(30,30,30,0.95) 100%);
+        }
+        
+        .sorteio-card.card-locked .sorteio-icon {
+            color: #666 !important;
+            filter: grayscale(100%);
+        }
+        
+        .sorteio-card.card-locked:hover .sorteio-icon {
+            transform: none;
+            filter: grayscale(100%);
+        }
+        
+        .sorteio-card.card-locked .sorteio-titulo-card {
+            color: #555;
+        }
+        
+        .locked-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 10px;
+            position: relative;
+            z-index: 1;
+        }
+        
+        .locked-icon {
+            font-size: 3rem;
+            color: #888;
+            text-shadow: 0 0 10px rgba(255,215,0,0.3);
+            animation: lock-pulse 2s ease-in-out infinite;
+        }
+        
+        .locked-text {
+            font-family: var(--font-trends);
+            font-size: 1.3rem;
+            color: var(--beatz-yellow);
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 0 0 10px rgba(255,215,0,0.5);
+        }
+        
+        .locked-subtext {
+            font-size: 0.85rem;
+            color: #666;
+            font-style: italic;
+        }
+        
+        @keyframes lock-pulse {
+            0%, 100% { 
+                text-shadow: 0 0 10px rgba(255,215,0,0.3);
+                transform: scale(1);
+            }
+            50% { 
+                text-shadow: 0 0 20px rgba(255,215,0,0.6);
+                transform: scale(1.05);
+            }
+        }
+        
+        .sorteio-titulo-card {
+            font-size: 1.2rem;
+            font-weight: 900;
+            color: #000;
+            text-transform: uppercase;
+            margin: 0;
+            line-height: 1.4;
+        }
+        
+        .sorteio-badge {
+            display: inline-block;
+            background: var(--beatz-green);
+            color: #fff;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            margin-top: 15px;
+            text-transform: uppercase;
+            border: 2px solid #000;
+        }
+        
+        /* ==================== MAPA E SETORES ==================== */
+        #mapa {
+            padding: 80px 20px;
+            background: linear-gradient(180deg, 
+                #AB8AEB 0%,
+                #E91E63 50%,
+                #D81B60 100%
+            );
+            text-align: center;
+        }
+        
+        .mapa-container {
+            max-width: 1400px;
+            margin: 0 auto;
+        }
+        
+        .titulo-setores {
+            font-family: var(--font-trends);
+            font-size: 3rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #fff;
+            margin-bottom: 30px;
+            text-shadow: 
+                4px 4px 0px #000,
+                -2px -2px 0px #000,
+                2px -2px 0px #000,
+                -2px 2px 0px #000;
+            animation: fadeInUp 0.8s ease-out;
+        }
+        
+        .mapa-3d-img {
+            width: 100%;
+            max-width: 1000px;
+            margin: 40px auto;
+            border-radius: 15px;
+            box-shadow: 0 10px 40px rgba(0, 0, 0, 0.3);
+        }
+        
+        /* GRID DE SETORES COM CARDS MODERNOS */
+        #mapa .setores-grid {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr) !important;
+            gap: 30px;
+            margin-top: 60px;
+            padding: 0 20px;
+            max-width: 1400px;
+            margin-left: auto;
+            margin-right: auto;
+            width: 100%;
+        }
+        
+        .setores-grid {
+            display: grid !important;
+            grid-template-columns: repeat(2, 1fr) !important;
+        }
+        
+        .setor-card {
+            background: linear-gradient(135deg, rgba(255,255,255,0.95) 0%, rgba(255,255,255,0.85) 100%);
+            border-radius: 25px;
+            padding: 30px;
+            border: 5px solid #000;
+            box-shadow: 8px 8px 0px rgba(0,0,0,0.3);
+            transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+            cursor: pointer;
+            position: relative;
+            overflow: hidden;
+            width: 100%;
+            box-sizing: border-box;
+        }
+        
+        .setor-card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            height: 8px;
+        }
+        
+        /* Cores específicas para cada card - Backgrounds Coloridos */
+        .setor-pista {
+            background: linear-gradient(135deg, #FF6B6B 0%, #FF8E8E 100%);
+        }
+        
+        .setor-pista::before {
+            background: linear-gradient(90deg, #FFD93D 0%, #FF6B6B 100%);
+        }
+        
+        .setor-frontstage {
+            background: linear-gradient(135deg, #4ECDC4 0%, #6FE7DD 100%);
+        }
+        
+        .setor-frontstage::before {
+            background: linear-gradient(90deg, #00BCD4 0%, #4ECDC4 100%);
+        }
+        
+        .setor-lounge {
+            background: linear-gradient(135deg, #A78BFA 0%, #C4B5FD 100%);
+        }
+        
+        .setor-lounge::before {
+            background: linear-gradient(90deg, #8B5CF6 0%, #A78BFA 100%);
+        }
+        
+        .setor-backstage {
+            background: linear-gradient(135deg, #F59E0B 0%, #FBBF24 100%);
+        }
+        
+        .setor-backstage::before {
+            background: linear-gradient(90deg, #F59E0B 0%, #FFD93D 100%);
+        }
+        
+        .setor-card:hover {
+            transform: translateY(-10px) scale(1.02);
+            box-shadow: 12px 12px 0px rgba(0,0,0,0.4);
+        }
+        
+        /* Badge do Setor */
+        .setor-badge {
+            display: inline-flex;
+            align-items: center;
+            gap: 10px;
+            background: rgba(0,0,0,0.9);
+            padding: 8px 20px;
+            border-radius: 50px;
+            margin-bottom: 20px;
+            border: 3px solid rgba(255,255,255,0.8);
+        }
+        
+        .setor-badge.premium {
+            background: rgba(0,0,0,0.9);
+            border: 3px solid rgba(255,255,255,0.8);
+        }
+        
+        .setor-badge.vip {
+            background: rgba(0,0,0,0.9);
+            border: 3px solid rgba(255,255,255,0.9);
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+        }
+        
+        .setor-label {
+            font-weight: 900;
+            font-size: 0.9rem;
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+        
+        .setor-tag {
+            background: rgba(255,255,255,0.3);
+            padding: 3px 10px;
+            border-radius: 20px;
+            font-size: 0.7rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+        }
+        
+        .setor-card h3 {
+            font-size: 1.8rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            color: #000;
+            margin-bottom: 15px;
+            text-shadow: 2px 2px 0px rgba(255,255,255,0.5);
+            letter-spacing: 1px;
+        }
+        
+        .setor-card p {
+            color: #000;
+            font-size: 1rem;
+            line-height: 1.7;
+            margin-bottom: 20px;
+            text-align: left;
+            font-weight: 600;
+        }
+        
+        .setor-card p strong {
+            color: #000;
+            font-weight: 900;
+        }
+        
+        /* Benefícios Tags */
+        .setor-beneficios {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-top: 20px;
+        }
+        
+        .beneficio-tag {
+            background: rgba(0,0,0,0.8);
+            border: 2px solid rgba(255,255,255,0.8);
+            padding: 8px 15px;
+            border-radius: 20px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            text-transform: uppercase;
+            color: #fff;
+            transition: all 0.3s;
+        }
+        
+        .beneficio-tag:hover {
+            background: rgba(255,255,255,0.9);
+            border-color: #000;
+            color: #000;
+            transform: scale(1.05);
+        }
+        
+        .beneficio-tag.gold {
+            border-color: rgba(0,0,0,0.8);
+            background: rgba(0,0,0,0.8);
+            color: #fff;
+        }
+        
+        .beneficio-tag.gold:hover {
+            background: rgba(255,255,255,0.9);
+            border-color: #000;
+            color: #000;
+        }
+        
+        /* ==================== BEATZ CLUB + PRÉ-VENDA - LAYOUT SIDE BY SIDE ==================== */
+        #beatzclub {
+            padding: 80px 20px;
+            background: linear-gradient(180deg,
+                #D81B60 0%,
+                #1a1a1a 30%,
+                #1a1a1a 100%
+            );
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        #beatzclub::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background:
+                radial-gradient(circle at 30% 20%, rgba(255, 215, 0, 0.1) 0%, transparent 50%),
+                radial-gradient(circle at 70% 80%, rgba(255, 215, 0, 0.1) 0%, transparent 50%);
+            pointer-events: none;
+        }
+
+        .beatzclub-container {
+            max-width: 1100px;
+            margin: 0 auto;
+            position: relative;
+            z-index: 1;
+        }
+
+        .beatzclub-header {
+            margin-bottom: 40px;
+        }
+
+        .beatzclub-icon {
+            font-size: 4rem;
+            display: block;
+            margin-bottom: 20px;
+            animation: pulse 2s ease-in-out infinite;
+        }
+
+        .beatzclub-titulo {
+            font-family: var(--font-trends);
+            font-size: 3.5rem;
+            font-weight: 900;
+            color: var(--beatz-yellow);
+            text-transform: uppercase;
+            text-shadow: 4px 4px 0px #000;
+            margin: 0 0 10px 0;
+        }
+
+        .beatzclub-subtitulo {
+            font-size: 1.2rem;
+            color: rgba(255, 255, 255, 0.8);
+            margin: 0;
+            text-transform: uppercase;
+            letter-spacing: 3px;
+        }
+
+        /* Layout side-by-side */
+        .beatzclub-grid {
+            display: grid;
+            grid-template-columns: 1fr 1.4fr;
+            gap: 30px;
+            align-items: stretch;
+        }
+
+        /* Card BeatzClub - Esgotado (menor, esquerda) */
+        .beatzclub-content {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.05) 0%, rgba(255, 215, 0, 0.02) 100%);
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            border-radius: 30px;
+            padding: 35px 25px;
+            box-shadow: none;
+            opacity: 0.7;
+            position: relative;
+        }
+
+        .beatzclub-content .esgotado-overlay {
+            position: absolute;
+            top: 15px;
+            right: 15px;
+            background: #666;
+            color: #ccc;
+            font-family: var(--font-trends);
+            font-size: 0.85rem;
+            padding: 5px 15px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+        }
+
+        .beatzclub-descricao {
+            font-size: 0.95rem;
+            color: #fff;
+            line-height: 1.7;
+            margin-bottom: 25px;
+        }
+
+        .beatzclub-descricao strong {
+            color: var(--beatz-yellow);
+        }
+
+        .beatzclub-beneficios {
+            display: grid;
+            grid-template-columns: 1fr;
+            gap: 12px;
+            margin-bottom: 25px;
+        }
+
+        .beatzclub-beneficio {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            background: rgba(255, 215, 0, 0.05);
+            padding: 10px 15px;
+            border-radius: 12px;
+            border: 1px solid rgba(255, 215, 0, 0.15);
+            transition: all 0.3s;
+        }
+
+        .beatzclub-beneficio:hover {
+            background: rgba(255, 215, 0, 0.1);
+            border-color: rgba(255, 215, 0, 0.3);
+        }
+
+        .beatzclub-beneficio i {
+            font-size: 1.2rem;
+            color: var(--beatz-yellow);
+            min-width: 25px;
+            opacity: 0.7;
+        }
+
+        .beatzclub-beneficio span {
+            color: rgba(255, 255, 255, 0.7);
+            font-weight: 600;
+            text-align: left;
+            font-size: 0.85rem;
+        }
+
+        .beatzclub-beneficio.beneficio-destaque-gold {
+            background: linear-gradient(90deg,
+                rgba(255, 215, 0, 0.05) 0%,
+                rgba(255, 215, 0, 0.15) 50%,
+                rgba(255, 215, 0, 0.05) 100%);
+            border: 2px solid rgba(255, 215, 0, 0.4);
+            justify-content: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .beatzclub-beneficio.beneficio-destaque-gold::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: -100%;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(90deg,
+                transparent 0%,
+                rgba(255, 255, 255, 0.15) 50%,
+                transparent 100%);
+            animation: shine-effect 3s ease-in-out infinite;
+        }
+
+        .beatzclub-beneficio.beneficio-destaque-gold i {
+            color: #FFD700;
+            font-size: 1.4rem;
+            opacity: 0.8;
+            position: relative;
+            z-index: 1;
+        }
+
+        .beatzclub-beneficio.beneficio-destaque-gold span {
+            color: rgba(255, 215, 0, 0.8);
+            font-weight: bold;
+            font-size: 0.9rem;
+            position: relative;
+            z-index: 1;
+        }
+
+        @keyframes shine-effect {
+            0% { left: -100%; }
+            50%, 100% { left: 100%; }
+        }
+
+        .btn-beatzclub-cta {
+            background: var(--beatz-yellow);
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 5px solid #000;
+            border-radius: 20px;
+            padding: 20px 60px;
+            box-shadow: 8px 8px 0px #000;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .btn-beatzclub-cta:hover {
+            transform: translate(4px, 4px);
+            box-shadow: 4px 4px 0px #000;
+        }
+
+        .btn-beatzclub-cta i {
+            font-size: 1.3rem;
+        }
+
+        .btn-beatzclub-cta.btn-esgotado {
+            background: #666;
+            color: #ccc;
+            cursor: not-allowed;
+            opacity: 0.8;
+            box-shadow: 4px 4px 0px #333;
+            font-size: 1.1rem;
+            padding: 12px 30px;
+            border-width: 3px;
+        }
+
+        .btn-beatzclub-cta.btn-esgotado:hover {
+            transform: none;
+            box-shadow: 4px 4px 0px #333;
+        }
+
+        /* Card Pré-venda Oficial (direita, destaque) */
+        .prevenda-contentFront{
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            border: 3px solid #4ECDC4 ;
+            border-radius: 30px;
+            padding: 45px 40px;
+            box-shadow: 0 0 50px #4ECDC4 ;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .prevenda-contentBack{
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            border: 3px solid #F59E0B  ;
+            border-radius: 30px;
+            padding: 45px 40px;
+            box-shadow: 0 0 50px #F59E0B;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .prevenda-contentBeat{
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            border: 3px solid #A78BFA  ;
+            border-radius: 30px;
+            padding: 45px 40px;
+            box-shadow: 0 0 50px #A78BFA  ;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .prevenda-content {
+            background: linear-gradient(135deg, rgba(255, 215, 0, 0.15) 0%, rgba(255, 215, 0, 0.05) 100%);
+            border: 3px solid #FF6B6B ;
+            border-radius: 30px;
+            padding: 45px 40px;
+            box-shadow: 0 0 50px #FF6B6B ;
+            position: relative;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+        }
+
+        .prevenda-badge {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: var(--beatz-yellow);
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 0.9rem;
+            font-weight: 900;
+            padding: 6px 25px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #000;
+            white-space: nowrap;
+        }
+
+        .prevenda-badgePista {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #FF6B6B ;
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 0.9rem;
+            font-weight: 900;
+            padding: 6px 25px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #000;
+            white-space: nowrap;
+        }
+
+        .prevenda-badgeBack {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #F59E0B  ;
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 0.9rem;
+            font-weight: 900;
+            padding: 6px 25px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #000;
+            white-space: nowrap;
+        }
+
+        .prevenda-badgeBeat {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #A78BFA  ;
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 0.9rem;
+            font-weight: 900;
+            padding: 6px 25px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #000;
+            white-space: nowrap;
+        }
+
+        .prevenda-badgeFront {
+            position: absolute;
+            top: -15px;
+            left: 50%;
+            transform: translateX(-50%);
+            background: #4ECDC4;
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 0.9rem;
+            font-weight: 900;
+            padding: 6px 25px;
+            border-radius: 20px;
+            text-transform: uppercase;
+            letter-spacing: 1px;
+            border: 3px solid #000;
+            white-space: nowrap;
+        }
+
+        .prevenda-titulo {
+            font-family: var(--font-trends);
+            font-size: 2rem;
+            color: var(--beatz-yellow);
+            text-shadow: 3px 3px 0px #000;
+            margin: 10px 0 15px;
+        }
+        .prevenda-tituloPista {
+            font-family: var(--font-trends);
+            font-size: 2rem;
+            color: #FF6B6B ;
+            text-shadow: 3px 3px 0px #000;
+            margin: 10px 0 15px;
+        }
+
+        .prevenda-tituloBack {
+            font-family: var(--font-trends);
+            font-size: 2rem;
+            color: #F59E0B  ;
+            text-shadow: 3px 3px 0px #000;
+            margin: 10px 0 15px;
+        }
+
+        .prevenda-tituloBeat {
+            font-family: var(--font-trends);
+            font-size: 2rem;
+            color: #A78BFA ;
+            text-shadow: 3px 3px 0px #000;
+            margin: 10px 0 15px;
+        }
+
+        .prevenda-tituloFront {
+            font-family: var(--font-trends);
+            font-size: 2rem;
+            color: #4ECDC4 ;
+            text-shadow: 3px 3px 0px #000;
+            margin: 10px 0 15px;
+        }
+
+        .prevenda-descricao {
+            font-size: 1.05rem;
+            color: #fff;
+            line-height: 1.7;
+            margin-bottom: 30px;
+        }
+
+        .prevenda-descricao strong {
+            color: var(--beatz-yellow);
+        }
+
+        .prevenda-vantagens {
+            display: flex;
+            flex-direction: column;
+            gap: 15px;
+            margin-bottom: 35px;
+        }
+
+        .prevenda-vantagem {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+            background: rgba(255, 215, 0, 0.1);
+            padding: 18px 22px;
+            border-radius: 15px;
+            border: 2px solid rgba(255, 215, 0, 0.3);
+            transition: all 0.3s;
+        }
+
+        .prevenda-vantagem:hover {
+            background: rgba(255, 215, 0, 0.2);
+            border-color: var(--beatz-yellow);
+            transform: translateX(5px);
+        }
+
+        .prevenda-vantagem i {
+            font-size: 1.8rem;
+            color: var(--beatz-yellow);
+            min-width: 35px;
+        }
+
+        .prevenda-vantagem-texto {
+            text-align: left;
+        }
+
+        .prevenda-vantagem-texto strong {
+            color: var(--beatz-yellow);
+            font-size: 2.05rem;
+            display: block;
+            margin-bottom: 3px;
+        }
+
+        .prevenda-vantagem-texto span {
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.9rem;
+        }
+
+        .btn-prevenda-cta {
+            background: var(--beatz-yellow);
+            color: #000;
+            font-family: var(--font-trends);
+            font-size: 1.5rem;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 5px solid #000;
+            border-radius: 20px;
+            padding: 20px 50px;
+            box-shadow: 8px 8px 0px #000;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: inline-flex;
+            align-items: center;
+            gap: 15px;
+            animation: gold-border-pulse 2s ease-in-out infinite;
+        }
+
+        .btn-prevenda-cta:hover {
+            transform: translate(4px, 4px);
+            box-shadow: 4px 4px 0px #000;
+        }
+
+        .btn-prevenda-cta i {
+            font-size: 1.3rem;
+        }
+
+        @keyframes gold-border-pulse {
+            0%, 100% {
+                box-shadow: 8px 8px 0px #000, 0 0 15px rgba(255, 215, 0, 0.4);
+            }
+            50% {
+                box-shadow: 8px 8px 0px #000, 0 0 30px rgba(255, 215, 0, 0.7);
+            }
+        }
+        
+        /* ==================== FAQ ==================== */
+        #faq {
+            padding: 80px 20px;
+            background: var(--beatz-purple);
+            text-align: center;
+        }
+        
+        .faq-container {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .faq-title {
+            font-family: var(--font-trends);
+            font-size: 4rem;
+            color: #fff;
+            text-shadow: 4px 4px 0px #000;
+            margin-bottom: 50px;
+            line-height: 1.1;
+        }
+        
+        .faq-list {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+            margin-bottom: 50px;
+        }
+        
+        .faq-item {
+            background: var(--beatz-yellow);
+            border: 4px solid #000;
+            border-radius: 20px;
+            padding: 25px 30px;
+            text-align: center;
+            box-shadow: 5px 5px 0px #000;
+            transition: transform 0.2s ease;
+        }
+        
+        .faq-item:hover {
+            transform: translateY(-3px);
+        }
+        
+        .faq-question {
+            font-family: var(--font-trends);
+            font-size: 1.3rem;
+            color: #000;
+            margin-bottom: 10px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        
+        .faq-answer {
+            font-family: var(--font-oswald);
+            font-size: 1rem;
+            color: #333;
+            line-height: 1.5;
+            text-transform: uppercase;
+        }
+        
+        .btn-atendente {
+            display: inline-block;
+            background: var(--beatz-yellow);
+            border: 4px solid #000;
+            border-radius: 50px;
+            padding: 18px 40px;
+            font-family: var(--font-trends);
+            font-size: 1.3rem;
+            color: #000;
+            text-decoration: none;
+            text-transform: uppercase;
+            box-shadow: 5px 5px 0px #000;
+            transition: all 0.2s ease;
+            cursor: pointer;
+        }
+        
+        .btn-atendente:hover {
+            transform: translateY(-3px);
+            box-shadow: 8px 8px 0px #000;
+        }
+        
+        .btn-atendente i {
+            margin-right: 10px;
+        }
+        
+        /* ==================== FOOTER ==================== */
+        #footer {
+            padding: 60px 20px;
+            background: #1a1a1a;
+            text-align: center;
+        }
+        
+        .footer-content {
+            max-width: 800px;
+            margin: 0 auto;
+        }
+        
+        .footer-logo {
+            max-width: 200px;
+            margin-bottom: 30px;
+        }
+        
+        .social-links {
+            margin: 30px 0;
+        }
+        
+        .social-links a {
+            color: var(--beatz-yellow);
+            font-size: 2rem;
+            margin: 0 15px;
+            transition: all 0.3s;
+        }
+        
+        .social-links a:hover {
+            color: var(--beatz-pink);
+            transform: scale(1.2);
+        }
+        
+        /* ==================== PRÉ-VENDA BADGE ==================== */
+        .pre-venda-badge {
+            text-align: center;
+            margin: 10px auto 10px;
+            cursor: pointer;
+        }
+        
+        .pre-venda-badge-inner {
+            display: inline-block;
+            background: var(--beatz-yellow);
+            border: 5px solid #000;
+            border-radius: 50px;
+            padding: 15px 50px;
+            box-shadow: 8px 8px 0px #000;
+            animation: pulse-badge 2s ease-in-out infinite;
+            transition: transform 0.2s ease, box-shadow 0.2s ease;
+        }
+        
+        .pre-venda-badge:hover .pre-venda-badge-inner {
+            transform: scale(1.05);
+            box-shadow: 10px 10px 0px #000;
+        }
+        
+        .pre-venda-badge-text {
+            font-family: var(--font-trends);
+            font-size: 1.8rem;
+            font-weight: 900;
+            color: #000;
+            text-transform: uppercase;
+            text-shadow: 2px 2px 0px rgba(255,255,255,0.5);
+            letter-spacing: 1px;
+        }
+        
+        /* ==================== RESPONSIVE ==================== */
+        
+        /* DESKTOP LARGE (1400px+) - Default styles above */
+        
+        /* DESKTOP (max 1400px) */
+        @media (max-width: 1400px) {
+            .video-background iframe {
+                width: 28%;
+                height: 59%;
+            }
+        }
+        
+        /* TABLET LANDSCAPE (max 1200px) */
+        @media (max-width: 1200px) {
+            .video-background iframe {
+                width: 28.2%;
+                height: 58%;
+            }
+            
+            .setores-grid {
+                gap: 25px;
+            }
+            
+            .setor-card {
+                padding: 25px;
+            }
+            
+            .setor-card h3 {
+                font-size: 1.6rem;
+            }
+            
+            .hero-logofull {
+                width: 700px;
+            }
+        }
+        
+        /* TABLET (max 992px) */
+        @media (max-width: 992px) {
+            .hero-texto-explicativo h1,
+            .hero-texto-explicativo h2 {
+                font-size: 1.2rem;
+            }
+            
+            .video-background iframe {
+                width: 28%;
+                height: 57%;
+            }
+            
+            .btn-grupo {
+                padding: 18px 50px;
+            }
+            
+            .btn-grupo img {
+                height: 45px;
+            }
+            
+            .img-valido-1000,
+            .img-explicacao-lote {
+                width: 90%;
+            }
+            
+            .hero-logofull {
+                width: 600px;
+            }
+            
+            .beneficios-titulo,
+            .sorteios-titulo,
+            .titulo-setores {
+                font-size: 2.5rem;
+            }
+            
+            .tabela-header > div {
+                font-size: 1.2rem;
+                padding: 20px 15px;
+            }
+            
+            .tabela-row > div {
+                padding: 15px;
+                font-size: 0.9rem;
+            }
+            
+            .tabela-cta {
+                gap: 20px;
+                padding: 30px;
+            }
+            
+            .btn-beatz-club {
+                padding: 15px 25px;
+                font-size: 1rem;
+            }
+        }
+        
+        /* MOBILE (max 768px) */
+        @media (max-width: 768px) {
+            #hero {
+                padding: 25px 15px;
+                min-height: auto;
+            }
+            
+            /* Header com Logo Full */
+            .hero-logofull {
+                width: 90%;
+                max-width: 400px;
+            }
+            
+            /* Texto */
+            .hero-texto-explicativo {
+                max-width: 95%;
+                padding: 0 15px;
+                margin: 8px auto 8px;
+            }
+            
+            .hero-texto-explicativo h1,
+            .hero-texto-explicativo h2 {
+                font-size: 1rem;
+                text-shadow: 
+                    2px 2px 0px #000,
+                    -1px -1px 0px #000,
+                    1px -1px 0px #000,
+                    -1px 1px 0px #000;
+            }
+            
+            /* Video Area */
+            .hero-video-area {
+                width: 100vw;
+                margin-left: calc(-50vw + 50%);
+                margin-right: 0;
+                margin-top: 25px;
+                margin-bottom: 30px;
+                padding: 0;
+                padding: 0;
+            }
+            
+            .telas-container {
+                width: 100%;
+                max-width: 100%;
+                margin: 0 auto;
+            }
+            
+            .telas-container img {
+                width: 100%;
+                height: auto;
+            }
+            
+            /* Trocar imagem para mobile */
+            .telas-img {
+                display: none;
+            }
+            
+            .telas-img-mobile {
+                display: block;
+            }
+            
+            /* Lote Zero Section */
+            .lote-zero-section {
+                margin: 30px auto 25px;
+            }
+            
+            .img-valido-1000 {
+                width: 95%;
+                margin-bottom: 25px;
+            }
+            
+            .lote-zero-info {
+                gap: 15px;
+            }
+            
+            .img-oque-lote {
+                width: 85%;
+            }
+            
+            .img-explicacao-lote {
+                width: 95%;
+            }
+            
+            /* Botão */
+            .btn-grupo-container {
+                margin: 30px auto;
+            }
+            
+            .btn-grupo {
+                padding: 15px 40px;
+                border-width: 4px;
+                box-shadow: 6px 6px 0px #000;
+            }
+            
+            .btn-grupo img {
+                height: 40px;
+            }
+            
+            /* Badge Pré-venda */
+            .pre-venda-badge-inner {
+                padding: 10px 25px;
+                border-width: 3px;
+                box-shadow: 5px 5px 0px #000;
+            }
+            
+            .pre-venda-badge-text {
+                font-size: 1.1rem;
+            }
+            
+            /* Hashtag Section */
+            .hashtag-section {
+                margin: 30px 0 20px;
+            }
+            
+            .texto-valido-1000 {
+                font-size: 1.1rem;
+            }
+            
+            .lote-zero-card {
+                padding: 25px 20px;
+                border-width: 2px;
+            }
+            
+            .lote-zero-card::before {
+                width: 35px;
+                height: 35px;
+                font-size: 1.3rem;
+                top: -18px;
+            }
+            
+            .texto-lote-zero-titulo {
+                font-size: 1.3rem;
+            }
+            
+            .texto-lote-zero-descricao {
+                font-size: 0.95rem;
+            }
+            
+            .texto-valido-final {
+                font-size: 0.9rem;
+                letter-spacing: 2px;
+            }
+            
+            .texto-hashtag {
+                font-size: 2.2rem;
+            }
+            
+            /* Robô */
+            .robo-section {
+                margin-top: 30px;
+                margin-bottom: -40px;
+            }
+            
+            .robo-img {
+                max-width: 400px;
+                width: 70%;
+            }
+            
+            /* Benefícios */
+            #beneficios {
+                padding: 60px 15px;
+            }
+            
+            .beneficios-titulo {
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+            
+            .tabela-header {
+                grid-template-columns: 2fr 1fr 1fr;
+            }
+            
+            .tabela-header > div {
+                font-size: 0.8rem;
+                padding: 15px 8px;
+            }
+            
+            .tabela-row > div {
+                padding: 12px 8px;
+                font-size: 0.75rem;
+            }
+            
+            .tabela-row .col-beneficio i {
+                font-size: 1.2rem;
+                min-width: 20px;
+            }
+            
+            .tabela-row .col-beatz,
+            .tabela-row .col-zero {
+                font-size: 1.4rem;
+            }
+            
+            .tabela-cta {
+                grid-template-columns: 1fr;
+                gap: 15px;
+                padding: 25px 15px;
+            }
+            
+            .btn-beatz-club {
+                padding: 15px 20px;
+                font-size: 0.9rem;
+            }
+            
+            /* Sorteios */
+            #sorteios {
+                padding: 60px 15px;
+            }
+            
+            .sorteios-titulo {
+                font-size: 2rem;
+                margin-bottom: 30px;
+            }
+            
+            .sorteios-grid {
+                grid-template-columns: 1fr 1fr;
+                gap: 15px;
+            }
+            
+            .sorteio-card {
+                padding: 25px 15px;
+            }
+            
+            .sorteio-icon {
+                font-size: 2.5rem;
+                margin-bottom: 15px;
+            }
+            
+            .sorteio-titulo-card {
+                font-size: 0.9rem;
+            }
+            
+            .sorteio-badge {
+                font-size: 0.6rem;
+                padding: 4px 10px;
+            }
+            
+            /* Mapa e Setores */
+            #mapa {
+                padding: 60px 15px;
+            }
+            
+            .titulo-setores {
+                font-size: 2rem;
+            }
+            
+            .mapa-3d-img {
+                margin: 30px auto;
+            }
+            
+            #mapa .setores-grid,
+            .setores-grid {
+                grid-template-columns: 1fr !important;
+                gap: 20px;
+                margin-top: 40px;
+            }
+            
+            .setor-card {
+                padding: 25px;
+                border-width: 4px;
+                box-shadow: 6px 6px 0px rgba(0,0,0,0.3);
+            }
+            
+            .setor-card:hover {
+                transform: translateY(-5px);
+                box-shadow: 8px 8px 0px rgba(0,0,0,0.4);
+            }
+            
+            .setor-badge {
+                flex-direction: row;
+                gap: 8px;
+                padding: 8px 15px;
+            }
+            
+            .setor-label {
+                font-size: 0.8rem;
+            }
+            
+            .setor-tag {
+                font-size: 0.6rem;
+            }
+            
+            .setor-card h3 {
+                font-size: 1.4rem;
+            }
+            
+            .setor-card p {
+                font-size: 0.9rem;
+            }
+            
+            .beneficio-tag {
+                font-size: 0.65rem;
+                padding: 6px 10px;
+            }
+            
+            /* FAQ */
+            #faq {
+                padding: 60px 15px;
+            }
+            
+            .faq-title {
+                font-size: 2.8rem;
+                margin-bottom: 35px;
+            }
+            
+            .faq-list {
+                gap: 15px;
+                margin-bottom: 40px;
+            }
+            
+            .faq-item {
+                padding: 20px 20px;
+                border-radius: 15px;
+                border-width: 3px;
+                box-shadow: 4px 4px 0px #000;
+            }
+            
+            .faq-question {
+                font-size: 1.1rem;
+            }
+            
+            .faq-answer {
+                font-size: 0.9rem;
+            }
+            
+            .btn-atendente {
+                padding: 15px 30px;
+                font-size: 1.1rem;
+            }
+            
+            /* Beatz Club + Pré-venda Section */
+            #beatzclub {
+                padding: 60px 15px;
+            }
+
+            .beatzclub-icon {
+                font-size: 3rem;
+            }
+
+            .beatzclub-titulo {
+                font-size: 2.5rem;
+            }
+
+            .beatzclub-subtitulo {
+                font-size: 1rem;
+                letter-spacing: 2px;
+            }
+
+            .beatzclub-grid {
+                grid-template-columns: 1fr;
+                gap: 25px;
+            }
+
+            .beatzclub-content {
+                padding: 30px 20px;
+                order: 2;
+            }
+
+            .prevenda-content {
+                padding: 35px 25px;
+                order: 1;
+            }
+
+            .prevenda-titulo {
+                font-size: 1.6rem;
+            }
+
+            .prevenda-descricao {
+                font-size: 0.95rem;
+            }
+
+            .prevenda-vantagem {
+                padding: 14px 18px;
+            }
+
+            .prevenda-vantagem i {
+                font-size: 1.5rem;
+            }
+
+            .btn-prevenda-cta {
+                font-size: 1.2rem;
+                padding: 15px 40px;
+                border-width: 4px;
+                box-shadow: 6px 6px 0px #000;
+            }
+
+            .btn-beatzclub-cta {
+                font-size: 1rem;
+                padding: 10px 25px;
+                border-width: 3px;
+                box-shadow: 4px 4px 0px #333;
+            }
+            
+            /* Footer */
+            #footer {
+                padding: 50px 15px;
+            }
+            
+            .footer-logo {
+                max-width: 150px;
+            }
+            
+            .social-links a {
+                font-size: 1.6rem;
+                margin: 0 12px;
+            }
+        }
+        
+        /* MOBILE SMALL (max 480px) */
+        @media (max-width: 480px) {
+            #hero {
+                padding: 20px 10px;
+            }
+            
+            .hero-logofull {
+                max-width: 320px;
+            }
+            
+            .hero-texto-explicativo h1,
+            .hero-texto-explicativo h2 {
+                font-size: 0.9rem;
+            }
+            
+            .btn-grupo {
+                padding: 12px 30px;
+                border-width: 3px;
+                box-shadow: 5px 5px 0px #000;
+            }
+            
+            .btn-grupo img {
+                height: 35px;
+            }
+            
+            .pre-venda-badge-inner {
+                padding: 8px 18px;
+                border-width: 3px;
+                box-shadow: 4px 4px 0px #000;
+            }
+            
+            .pre-venda-badge-text {
+                font-size: 0.95rem;
+            }
+            
+            /* Sorteios */
+            .sorteios-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .sorteio-card {
+                padding: 20px 15px;
+            }
+            
+            .sorteio-icon {
+                font-size: 2rem;
+            }
+            
+            .sorteio-titulo-card {
+                font-size: 0.85rem;
+            }
+            
+            /* Tabela */
+            .tabela-header > div {
+                font-size: 0.7rem;
+                padding: 12px 5px;
+            }
+            
+            .tabela-row > div {
+                padding: 10px 5px;
+                font-size: 0.65rem;
+            }
+            
+            .tabela-row .col-beneficio i {
+                font-size: 1rem;
+                min-width: 15px;
+            }
+            
+            .tabela-row .col-beatz,
+            .tabela-row .col-zero {
+                font-size: 1.2rem;
+            }
+            
+            .btn-beatz-club {
+                padding: 12px 15px;
+                font-size: 0.8rem;
+            }
+        }
+        
+        /* MOBILE EXTRA SMALL (max 380px) */
+        @media (max-width: 380px) {
+            .hero-logofull {
+                max-width: 280px;
+            }
+            
+            .hero-texto-explicativo h1,
+            .hero-texto-explicativo h2 {
+                font-size: 0.85rem;
+            }
+            
+            .btn-grupo {
+                padding: 10px 25px;
+            }
+            
+            .btn-grupo img {
+                height: 30px;
+            }
+            
+            .pre-venda-badge-inner {
+                padding: 6px 12px;
+                border-radius: 25px;
+                border-width: 2px;
+                box-shadow: 3px 3px 0px #000;
+            }
+            
+            .pre-venda-badge-text {
+                font-size: 0.8rem;
+            }
+            
+            .robo-section {
+                margin-bottom: -30px;
+            }
+            
+            .robo-img {
+                max-width: 280px;
+                width: 60%;
+            }
+            
+            .beneficios-titulo,
+            .sorteios-titulo,
+            .titulo-setores {
+                font-size: 1.6rem;
+            }
+        }
+        
+        /* ==================== MODAL ==================== */
+        .modal-content {
+            background: var(--beatz-purple);
+            border: 5px solid #000;
+            border-radius: 25px;
+        }
+        
+        .modal-header {
+            border-bottom: 3px solid #000;
+        }
+        
+        .modal-title {
+            color: var(--beatz-yellow);
+            font-weight: 900;
+            text-transform: uppercase;
+        }
+        
+        .form-control {
+            border: 3px solid #000;
+            border-radius: 10px;
+            padding: 12px;
+            font-weight: 600;
+        }
+        
+        .btn-submit {
+            background: var(--beatz-yellow);
+            color: #000;
+            font-weight: 900;
+            text-transform: uppercase;
+            border: 4px solid #000;
+            border-radius: 15px;
+            padding: 15px 30px;
+            box-shadow: 5px 5px 0px #000;
+            cursor: pointer;
+            transition: all 0.2s;
+            width: 100%;
+        }
+        
+        .btn-submit:hover {
+            transform: translate(3px, 3px);
+            box-shadow: 2px 2px 0px #000;
+        }
+        
+        /* ==================== LOADER ==================== */
+        .loader {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100vw;
+            height: 100vh;
+            background: var(--beatz-purple-dark);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 9999;
+            transition: opacity 0.5s, visibility 0.5s;
+        }
+        
+        .loader.hidden {
+            opacity: 0;
+            visibility: hidden;
+        }
+        
+        .loader-robot {
+            max-width: 200px;
+            animation: pulse 1s ease-in-out infinite;
+        }
+        
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+        
+        @keyframes pulse-badge {
+            0%, 100% { 
+                transform: scale(1);
+                box-shadow: 8px 8px 0px #000;
+            }
+            50% { 
+                transform: scale(1.05);
+                box-shadow: 10px 10px 0px #000;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <!-- LOADER -->
+    <div class="loader" id="loader">
+        <img src="images/robot-mascot.png" alt="Loading" class="loader-robot">
+    </div>
+    
+    <!-- ==================== HERO SECTION ==================== -->
+    <section id="hero">
+        <div class="hero-content">
+            
+            <!-- HEADER: LOGO COMPLETA -->
+            <div class="hero-header-row">
+                <img src="images/logofull.png" alt="CASCAVEL-PR | BEATZ CLUB | 26 DE ABRIL" class="hero-logofull">
+            </div>
+            
+            <!-- TEXTO EXPLICATIVO -->
+            <div class="hero-texto-explicativo">
+                <h2>ASSISTA AO NOSSO AFTERMOVIE E ENTRE NO CLIMA DO <span style="color: var(--beatz-yellow);">BEATZ FESTIVAL 2026</span></h2>
+            </div>
+            
+            <!-- ÁREA DE VÍDEO COM TELAS -->
+            <div class="hero-video-area" onclick="abrirVideo()">
+                <!-- Imagem das telas com play -->
+                <div class="telas-container">
+                    <img src="images/TELAFULL.PNG" alt="Assista ao vídeo" class="telas-img" fetchpriority="high">
+                    <img src="images/TELAPLAY.png" alt="Assista ao vídeo" class="telas-img-mobile">
+                </div>
+            </div>
+            
+<!-- BOTÃO ENTRAR NO GRUPO VIP -->
+ <a href="#beatzclub"
+            <div class="btn-grupo-container">
+                <button class="btn-grupo-vip">
+                    COMPRAR INGRESSO
+                </button>
+            </div>
+        </a>
+
+            
+            
+        </div>
+    </section>
+    
+    <!-- ==================== PALCO BEATZ ==================== -->
+    <section id="palco-beatz" class="palcos-section">
+        <div class="palcos-container">
+            <h2 class="palcos-titulo palco-beatz-titulo">PALCO BEATZ</h2>
+            <div class="artistas-grid artistas-grid-9">
+                <div class="artista-card"><img src="images/ALEE.webp" alt="Alee" loading="lazy"></div>
+                <div class="artista-card"><img src="images/BRANDAO.webp" alt="Brandão" loading="lazy"></div>
+                <div class="artista-card"><img src="images/HAIKAISS.webp" alt="Haikaiss" loading="lazy"></div>
+                <div class="artista-card"><img src="images/NANDA%20TSUNAMI.webp" alt="Nanda Tsunami" loading="lazy"></div>
+                <div class="artista-card"><img src="images/TASHA%20E%20TRACIE.webp" alt="Tasha e Tracie" loading="lazy"></div>
+                <div class="artista-card"><img src="images/YAGO%20OPROPRIO.webp" alt="Yago Oproprio" loading="lazy"></div>
+                <div class="artista-card"><img src="images/YURI%20REDICOPA.webp" alt="Yuri Redicopa" loading="lazy"></div>
+                <div class="artista-card"><img src="images/artistarosa.png" alt="Artista" loading="lazy"></div>
+                <div class="artista-card"><img src="images/artistarosa.png" alt="Artista" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ==================== PALCO ELETRÔNICO ==================== -->
+    <section id="palco-eletronico" class="palcos-section">
+        <div class="palcos-container">
+            <h2 class="palcos-titulo palco-eletronico-titulo">PALCO ELETRÔNICO</h2>
+            <div class="artistas-grid artistas-grid-8">
+                <div class="artista-card"><img src="images/ALMANAC.webp" alt="Almanac" loading="lazy"></div>
+                <div class="artista-card"><img src="images/CHAPELEIRO.webp" alt="Chapeleiro" loading="lazy"></div>
+                <div class="artista-card"><img src="images/CLASSMATIC.webp" alt="Classmatic" loading="lazy"></div>
+                <div class="artista-card"><img src="images/CLAUDINHO%20BRASIL.webp" alt="Claudinho Brasil" loading="lazy"></div>
+                <div class="artista-card"><img src="images/DUARTE.webp" alt="Duarte" loading="lazy"></div>
+                <div class="artista-card"><img src="images/artistaazul.png" alt="Artista" loading="lazy"></div>
+                <div class="artista-card"><img src="images/artistaazul.png" alt="Artista" loading="lazy"></div>
+                <div class="artista-card"><img src="images/artistaazul.png" alt="Artista" loading="lazy"></div>
+            </div>
+        </div>
+    </section>
+    
+   
+    
+    <!-- ==================== SORTEIOS EXCLUSIVOS (OCULTO) ==================== -->
+    <section id="sorteios" style="display:none;">
+        <div class="sorteios-container">
+            <h2 class="sorteios-titulo">Sorteios Exclusivos</h2>
+            
+            <div class="sorteios-grid">
+                <!-- Sorteio 1 -->
+                <div class="sorteio-card">
+                    <span class="sorteio-icon">📸</span>
+                    <h3 class="sorteio-titulo-card">Foto com Artista de Escolha</h3>
+                    <span class="sorteio-badge">Exclusivo Beatz Club</span>
+                </div>
+                
+                <!-- Sorteio 2 -->
+                <div class="sorteio-card">
+                    <span class="sorteio-icon">⭐</span>
+                    <h3 class="sorteio-titulo-card">Assista o Show do seu Artista Preferido em um Local Privilegiado</h3>
+                    <span class="sorteio-badge">Exclusivo Beatz Club</span>
+                </div>
+                
+                <!-- Sorteio 3 -->
+                <div class="sorteio-card">
+                    <span class="sorteio-icon">🎫</span>
+                    <h3 class="sorteio-titulo-card">Ingressos Extras</h3>
+                    <span class="sorteio-badge">Exclusivo Beatz Club</span>
+                </div>
+
+                                <!-- Sorteio 6 -->
+                                <div class="sorteio-card">
+                    <span class="sorteio-icon">🎉</span>?
+                    <h3 class="sorteio-titulo-card">Produtos Oficiais do Festival</h3>
+                    <span class="sorteio-badge">Exclusivo Beatz Club</span>
+                </div>
+                
+                <!-- Sorteio 4 -->
+                <div class="sorteio-card">
+                    <span class="sorteio-icon">🏨</span>
+                    <h3 class="sorteio-titulo-card">01 Diária Suite Dupla em Hotel Parceiro</h3>
+                    <span class="sorteio-badge">Exclusivo Beatz Club</span>
+                </div>
+                
+                <!-- Sorteio 5 -->
+                <div class="sorteio-card">
+                    <span class="sorteio-icon">✍️</span>
+                    <h3 class="sorteio-titulo-card">Souvenirs Autografados</h3>
+                    <span class="sorteio-badge">Exclusivo Beatz Club</span>
+                </div>
+                
+
+            </div>
+        </div>
+    </section>
+    
+    <!-- ==================== MAPA E SETORES ==================== -->
+    <section id="mapa">
+        <div class="mapa-container">
+            <h2 class="titulo-setores">Entenda os Setores do Evento</h2>
+            
+            <img src="images/mapa-2d.png" alt="Mapa do Evento" class="mapa-3d-img" loading="lazy">
+            
+            <!-- GRID DE SETORES COM CARDS -->
+            <div class="setores-grid">
+                <!-- PISTA -->
+                <div class="setor-card setor-pista">
+                    <div class="setor-badge">
+                        <span class="setor-label">🎵 PISTA</span>
+                    </div>
+                    <h3>PISTA</h3>
+                    <p>
+                        A pista dá acesso aos <strong>2 palcos</strong>, mas <strong>NÃO</strong> ao Frontstage, Beat Lounge (bar + food) e BackStage (Bar Premium).
+                    </p>
+                    <div class="setor-beneficios">
+                        <div class="beneficio-tag">VISÃO DOS 2 PALCOS</div>
+                        <div class="beneficio-tag">LOCAL COM VENDA DE BEBIDAS</div>
+                        <div class="beneficio-tag">FOOD PARK E ATIVAÇÕES</div>
+                    </div>
+                </div>
+                
+                <!-- FRONTSTAGE -->
+                <div class="setor-card setor-frontstage">
+                    <div class="setor-badge">
+                        <span class="setor-label">🔥 FRONTSTAGE</span>
+                    </div>
+                    <h3>FRONTSTAGE</h3>
+                    <p>
+                        O FrontStage é uma área localizada em <strong>frente ao PALCO BEAT</strong>. Também dá acesso à pista comum.
+                    </p>
+                    <div class="setor-beneficios">
+                        <div class="beneficio-tag">VENDA DE BEBIDAS</div>
+                        <div class="beneficio-tag">BANHEIROS EXCLUSIVOS</div>
+                        <div class="beneficio-tag">ACESSO À PISTA</div>
+                    </div>
+                </div>
+                
+                <!-- BEAT LOUNGE -->
+                <div class="setor-card setor-lounge">
+                    <div class="setor-badge premium">
+                        <span class="setor-label">🍸 BEAT LOUNGE</span>
+                        <span class="setor-tag">OPEN BAR + FOOD</span>
+                    </div>
+                    <h3>BEAT LOUNGE</h3>
+                    <p>
+                        Com visão em frente ao <strong>PALCO BEAT e PALCO ELETRONICO</strong>, também dá acesso a Pista, conta com <strong>Open Bar + Food premium</strong>.
+                    </p>
+                    <div class="setor-beneficios">
+                        <div class="beneficio-tag">OPEN BAR (BEBIDAS E DRINKS)</div>
+                        <div class="beneficio-tag">VISÃO PRIVILEGIADA</div>
+                        <div class="beneficio-tag">ACESSO À PISTA</div>
+                    </div>
+                </div>
+                
+                <!-- BACKSTAGE HYPE -->
+                <div class="setor-card setor-backstage">
+                    <div class="setor-badge premium">
+                        <span class="setor-label">⭐ BACKSTAGE</span>
+                        <span class="setor-tag">OPEN BAR PREMIUM</span>
+                    </div>
+                    <h3>BACKSTAGE</h3>
+                    <p>
+                        É o local que você <strong>vira parte do show</strong> com Open Bar Premium, ele fica em cima do <strong>PALCO ELETRÔNICO</strong>, <strong>ao lado dos DJs</strong> com acesso a Pista e Lounge.
+                    </p>
+                    <div class="setor-beneficios">
+                        <div class="beneficio-tag">BANHEIROS EXCLUSIVOS</div>
+                        <div class="beneficio-tag">ACESSO A TODOS OS SETORES</div>
+                        <div class="beneficio-tag">OPEN BAR PREMIUM</div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ==================== BEATZ CLUB + PRÉ-VENDA OFICIAL ==================== -->
+    <section id="beatzclub">
+        <div class="beatzclub-container">
+            <div class="beatzclub-header">
+                <span class="beatzclub-icon">👑</span>
+                <h2 class="beatzclub-titulo">INGRESSOS</h2>
+                <p class="beatzclub-subtitulo">Garanta o seu lugar no festival</p>
+            </div>
+
+            
+
+                <!-- PRÉ-VENDA OFICIAL (direita, destaque) -->
+                <div class="prevenda-content">
+                    <span class="prevenda-badgePista"><i class="fas fa-fire"></i> PRÉ-VENDA</span>
+                    <h3 class="prevenda-tituloPista">PISTA</h3>
+                    <p class="prevenda-descricao">
+                        A <strong>pré-venda oficial</strong> do BEATZ Festival está aberta! Garanta seu ingresso com as <strong>melhores condições</strong>.
+                    </p>
+
+                    <div class="prevenda-vantagens">
+                        <div class="prevenda-vantagem">
+                            
+                            <div class="prevenda-vantagem-texto">
+                                <strong>De: R$ 287,97 <BR> Por: R$ 97,97</strong>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+<a href="https://seguro.beatzclub.shop/api/public/shopify?product=2868417616587&store=28684">
+                    <button class="btn-prevenda-cta">
+                        <i class="fas fa-ticket-alt"></i> COMPRAR AGORA
+                    </button>
+                    </a>
+                </div>
+<BR> <BR>
+
+    
+               <div class="prevenda-contentFront">
+                    <span class="prevenda-badgeFront"><i class="fas fa-fire"></i> PRÉ-VENDA</span>
+                    <h3 class="prevenda-tituloFront">FRONTSTAGE</h3>
+                    <p class="prevenda-descricao">
+                        A <strong>pré-venda oficial</strong> do BEATZ Festival está aberta! Garanta seu ingresso com as <strong>melhores condições</strong>.
+                    </p>
+
+                    <div class="prevenda-vantagens">
+                        <div class="prevenda-vantagem">
+                            
+                            <div class="prevenda-vantagem-texto">
+                                <strong>De: R$ 387,97 <BR> Por: R$ 137,97</strong>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+<a href="https://seguro.beatzclub.shop/api/public/shopify?product=2868419246242&store=28684">
+                    <button class="btn-prevenda-cta" >
+                        <i class="fas fa-ticket-alt"></i> COMPRAR AGORA
+                    </button>
+                    </a>
+                </div>
+<BR> <BR>
+
+    <div class="prevenda-contentBeat">
+                    <span class="prevenda-badgeBeat"><i class="fas fa-fire"></i> PRÉ-VENDA</span>
+                    <h3 class="prevenda-tituloBeat">BEAT LOUNGE</h3>
+                    <p class="prevenda-descricao">
+                        A <strong>pré-venda oficial</strong> do BEATZ Festival está aberta! Garanta seu ingresso com as <strong>melhores condições</strong>.
+                    </p>
+
+                    <div class="prevenda-vantagens">
+                        <div class="prevenda-vantagem">
+                            
+                            <div class="prevenda-vantagem-texto">
+                                <strong>De: R$ 597,97 <BR> Por: R$ 275,97</strong>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+<a href="https://seguro.beatzclub.shop/api/public/shopify?product=2868463484298&store=28684">
+                    <button class="btn-prevenda-cta" >
+                        <i class="fas fa-ticket-alt"></i> COMPRAR AGORA
+                    </button>
+                    </a>
+                </div>
+<BR> <BR>
+
+    <div class="prevenda-contentBack">
+                    <span class="prevenda-badgeBack"><i class="fas fa-fire"></i> PRÉ-VENDA</span>
+                    <h3 class="prevenda-tituloBack">BACKSTAGE</h3>
+                    <p class="prevenda-descricao">
+                        A <strong>pré-venda oficial</strong> do BEATZ Festival está aberta! Garanta seu ingresso com as <strong>melhores condições</strong>.
+                    </p>
+
+                    <div class="prevenda-vantagens">
+                        <div class="prevenda-vantagem">
+                            
+                            <div class="prevenda-vantagem-texto">
+                                <strong>De: R$ 1297,97 <BR> Por: R$ 497,97</strong>
+                                
+                            </div>
+                        </div>
+                        
+                    </div>
+<a href="https://seguro.beatzclub.shop/api/public/shopify?product=2868471696583&store=28684">
+                    <button class="btn-prevenda-cta" >
+                        <i class="fas fa-ticket-alt"></i> COMPRAR AGORA
+                    </button>
+                    </a>
+                </div>
+<BR> <BR>
+            </div>
+        </div>
+    </section>
+    
+    <!-- ==================== FAQ ==================== -->
+    <section id="faq">
+        <div class="faq-container">
+            <h2 class="faq-title">DÚVIDAS<br>FREQUENTES</h2>
+            
+            <div class="faq-list">
+                <div class="faq-item">
+                    <h3 class="faq-question">Quais são os artistas do Beatz Festival 2026?</h3>
+                    <p class="faq-answer">Os artistas serão divulgados em breve! Estamos preparando uma verdadeira seleção para o lineup do Beatz 2026.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Não sou de Cascavel, terá excursões oficiais para essa edição?</h3>
+                    <p class="faq-answer">Sim! Nosso time de excursionistas estão sendo divulgados em nosso perfil oficial do Instagram, encontre a mais próxima de você em nossos destaques.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Todos que comprarem terão acesso ao Beatz Club?</h3>
+                    <p class="faq-answer">Não, apenas os 1000 primeiros compradores da pré-venda Lote Zero terão acesso aos benefícios.</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Comprei meu ingresso na pré-venda, como saber se eu me tornei um membro Beatz Club?</h3>
+                    <p class="faq-answer">Para saber se você esteve entre os 1000 primeiros compradores, você pode consultar se possui a observação "BEATZ CLUB" no seu ingresso emitido. Nossa equipe entrará em breve em contato com todos os membros para dar todas as informações sobre os benefícios!</p>
+                </div>
+                
+                <div class="faq-item">
+                    <h3 class="faq-question">Qual a classificação indicativa do Beatz Festival?</h3>
+                    <p class="faq-answer">Para os setores Front Stage e Pista, a classificação indicativa é 16 anos. Já para os setores Open Bar (Beat Lounge e Backstage) é proibido a entrada de menores de 18 anos.</p>
+                </div>
+            </div>
+            
+            <a href="https://wa.me/5544991746993" target="_blank" class="btn-atendente">
+                <i class="fab fa-whatsapp"></i> FALE COM ATENDENTE
+            </a>
+        </div>
+    </section>
+    
+    <!-- ==================== FOOTER ==================== -->
+    <section id="footer">
+        <div class="footer-content">
+            <img src="images/hashtag-beatz.png" alt="BEATZ" class="footer-logo" loading="lazy">
+            
+            <div class="social-links">
+                <a href="https://instagram.com/beatzfestival" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://tiktok.com/@beatz.festival" target="_blank"><i class="fab fa-tiktok"></i></a>
+                <a href="https://www.facebook.com/people/Beatz-Festival/61584794406808/" target="_blank"><i class="fab fa-facebook"></i></a>
+                <a href="https://wa.me/5544991746993" target="_blank"><i class="fab fa-whatsapp"></i></a>
+            </div>
+            
+            <p style="margin-top: 30px; color: #999;">
+                © 2025-2026 BEATZ Festival - Todos os direitos reservados<br>
+                Cascavel - PR | 23 de Maio de 2026
+            </p>
+        </div>
+    </section>
+    
+    <!-- ==================== MODAL DE VÍDEO ==================== -->
+    <div class="video-modal" id="videoModal" onclick="fecharVideo(event)">
+        <div class="video-modal-content" onclick="event.stopPropagation()">
+            <button class="video-modal-close" onclick="fecharVideo(event)">�</button>
+            <iframe id="youtubePlayer" src="" title="BEATZ Festival Aftermovie" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen="">
+            </iframe>
+        </div>
+    </div>
+    
+    <!-- ==================== MODAL DE CADASTRO ==================== -->
+    <div class="modal fade" id="cadastroModal" tabindex="-1">
+        <div class="modal-dialog modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title">
+                        <i class="fas fa-crown me-2"></i> CADASTRE-SE NO GRUPO VIP
+                    </h5>
+                    <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal"></button>
+                </div>
+                <div class="modal-body" style="padding: 30px;">
+                    <form id="formCadastro">
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">NOME COMPLETO</label>
+                            <input type="text" class="form-control" id="nome" name="nome" required="">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">EMAIL</label>
+                            <input type="email" class="form-control" id="email" name="email" required="">
+                        </div>
+                        <div class="mb-3">
+                            <label class="form-label fw-bold">WHATSAPP</label>
+                            <input type="tel" class="form-control" id="telefone" name="telefone" required="" placeholder="(44) 99174-6993">
+                        </div>
+                        <button type="submit" class="btn-submit mt-3">
+                            <i class="fas fa-crown me-2"></i> ENTRAR NO GRUPO VIP
+                        </button>
+                    </form>
+                    <div id="mensagemSucesso" style="display: none; margin-top: 20px; padding: 20px; background: var(--beatz-green); border: 3px solid #000; border-radius: 10px; text-align: center;">
+                        <p style="font-weight: 900; margin: 0; color: #fff;">
+                            <i class="fas fa-check-circle me-2"></i> CADASTRO REALIZADO COM SUCESSO!
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    
+    <!-- Scripts -->
+    <script src="js/jquery-3.6.0.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/gsap.min.js"></script>
+    <script src="js/analytics.js"></script>
+    
+    <script>
+        // Remover loader após carregamento
+        window.addEventListener('load', function() {
+            setTimeout(function() {
+                document.getElementById('loader').classList.add('hidden');
+            }, 1000);
+        });
+        
+        // Abrir modal de cadastro
+        function abrirCadastro() {
+            const modal = new bootstrap.Modal(document.getElementById('cadastroModal'));
+            modal.show();
+        }
+        
+        // Abrir modal de vídeo
+        function abrirVideo() {
+            const videoModal = document.getElementById('videoModal');
+            const iframe = document.getElementById('youtubePlayer');
+            iframe.src = 'https://www.youtube.com/embed/8utSl1fz2Ko?autoplay=1&rel=0';
+            videoModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+        
+        // Fechar modal de vídeo
+        function fecharVideo(event) {
+            if (event) event.stopPropagation();
+            const videoModal = document.getElementById('videoModal');
+            const iframe = document.getElementById('youtubePlayer');
+            iframe.src = '';
+            videoModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+        
+        // Fechar com ESC
+        document.addEventListener('keydown', function(e) {
+            if (e.key === 'Escape') {
+                fecharVideo();
+            }
+        });
+        
+        // Formulário de cadastro
+        document.getElementById('formCadastro').addEventListener('submit', function(e) {
+            e.preventDefault();
+            
+            const formData = new FormData(this);
+            
+            fetch('cadastro-beatz.php', {
+                method: 'POST',
+                body: formData
+            })
+            .then(response => response.json())
+            .then(data => {
+                if (data.success) {
+                    document.getElementById('formCadastro').style.display = 'none';
+                    document.getElementById('mensagemSucesso').style.display = 'block';
+                    
+                    // Meta Pixel - Evento de Lead
+                    if (typeof fbq === 'function') {
+                        fbq('track', 'Lead', {
+                            content_name: 'Beatz Festival 2026',
+                            content_category: 'Cadastro Grupo VIP'
+                        });
+                    }
+                    
+                    // Vincular lead com analytics
+                    if (typeof vincularLeadComSession === 'function' && data.lead_id) {
+                        vincularLeadComSession(data.lead_id);
+                    }
+                    
+                    setTimeout(function() {
+                        window.location.href = 'https://app.gruposinteligentes.com/r/beatz2026';
+                    }, 2000);
+                } else {
+                    alert(data.message || 'Erro ao realizar cadastro. Tente novamente.');
+                }
+            })
+            .catch(error => {
+                console.error('Erro:', error);
+                alert('Erro ao realizar cadastro. Verifique sua conexão e tente novamente.');
+            });
+        });
+        
+        // Animações GSAP
+        gsap.from('.hero-logo', { 
+            duration: 1, 
+            y: -50, 
+            opacity: 0, 
+            ease: 'bounce.out' 
+        });
+        
+        gsap.from('.telas-img', { 
+            duration: 1.2, 
+            scale: 0.8, 
+            opacity: 0, 
+            ease: 'back.out(1.7)',
+            delay: 0.3
+        });
+        
+        gsap.from('.robo-img', { 
+            duration: 1.5, 
+            y: 100, 
+            opacity: 0, 
+            ease: 'power3.out',
+            delay: 0.5
+        });
+        
+        // Scroll suave
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                const href = this.getAttribute('href');
+                if (href !== '#') {
+                    e.preventDefault();
+                    const target = document.querySelector(href);
+                    if (target) {
+                        target.scrollIntoView({ behavior: 'smooth', block: 'start' });
+                    }
+                }
+            });
+        });
+    </script>
+<!-- Modal do formulário Flow -->
+<div id="modal-flow-form" style="display:none; position:fixed; top:0; left:0; width:100%; height:100%; background:rgba(0,0,0,0.85); z-index:9999; justify-content:center; align-items:center;">
+    <div style="position:relative; background:#1a1a1a; border-radius:20px; padding:30px; max-width:600px; width:90%; max-height:90vh; overflow-y:auto;">
+        <button onclick="fecharModalFlow()" style="position:absolute; top:10px; right:15px; background:none; border:none; color:#fff; font-size:2rem; cursor:pointer; z-index:1;">�</button>
+        <div id="flow-form-beatz-festival-pre-venda-2026"></div>
+    </div>
+</div>
+<script src="https://flow.vetrio.app/api/public/launches/embed/beatz-festival-pre-venda-2026"></script>
+<script>
+    function abrirModalFlow() {
+        document.getElementById('modal-flow-form').style.display = 'flex';
+        document.body.style.overflow = 'hidden';
+    }
+    function fecharModalFlow() {
+        document.getElementById('modal-flow-form').style.display = 'none';
+        document.body.style.overflow = '';
+    }
+    document.getElementById('modal-flow-form').addEventListener('click', function(e) {
+        if (e.target === this) fecharModalFlow();
+    });
+</script>
+
+
+</body></html>
